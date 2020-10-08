@@ -1,0 +1,315 @@
+/**
+ * @name lua#0875
+ * @author lua#0875
+ * @version 1.0.0
+ * @description  Dark Theme by lua#0875
+
+*/
+
+@import url("https://discordstyles.github.io/Slate/base.cs");
+
+/*
+====================================================================================
+                                  Basic Variables
+====================================================================================
+.headerPlaying-j0WQBV.header-2BwW8b.size16-14cGz5{/*top part ingame*/
+    background: linear-gradient( rgba(209, 171, 0, 0.5), rgb(209, 171, 0, 1) )!important;
+}
+
+.headerStreaming-2FjmGz.header-2BwW8b.size16-14cGz5{/*top part straming*/
+    background: linear-gradient( rgba(209, 0, 192, 0.5), rgb(209, 0, 122) )!important;
+}
+
+.headerSpotify-zpWxgT.header-2BwW8b.size16-14cGz5{/*top part spotify*/
+    background: linear-gradient( rgba(7, 209, 0, 0.5), rgb(0, 170, 71) )!important;
+}
+
+.modeSelected-1zApJ_ .name-3_Dsmg {
+color:white;
+}
+
+.item-PXvHYJ.da-item.selected-3s45Ha.da-selected.themed-OHr7kt.da-themed {
+    background-color: #222;
+    border-left: 3px solid gray;
+    color: gray;
+}
+
+
+.bar-2Qqk5Z[style^="background: rgb(105, 196, 154)"] {
+    background: grey!important;
+}
+
+.slider-1PF9SW .barFill-23-gu- {
+    background: gray !important;
+}
+.slider-1PF9SW .bar-2Qqk5Z {
+    background: dark !important;
+}
+
+.px-10SIf7.botTag-2WPJ74 {
+    background: gray !important;
+  }
+
+.layerContainer-yqaFcK .menu-3sdvDG {
+  background-color: rgba(60, 60, 60, 0.6);
+  backdrop-filter: blur(5px);
+}
+
+.name-3YKhmS {
+    color: white !important;
+  }
+
+.micTestButton-2Vwk4_ {
+    color: white !important;
+    background: gray !important;
+  }
+
+.standardSidebarView-3F1I7i, .standardSidebarView-3F1I7i * {
+    color: dark !important;
+    background: dark !important;
+  }
+
+.platform-win .scroller-2TZvBN {
+    color: dark !important;
+    background: linear-gradient( rgba(15, 15, 15, 0.5), rgb(26, 26, 26, 1) )!important;
+  }
+
+.body-GmmuPm {
+    color: dark !important;
+    background: linear-gradient( rgba(15, 15, 15, 0.5), rgb(26, 26, 26, 1) )!important;
+  }
+
+.activityPanel-28dQGo {
+    color: dark !important;
+    background: linear-gradient( rgba(15, 15, 15, 0.5), rgb(26, 26, 26, 1) )!important;
+  }
+
+.rtcConnectionStatus-2-jIsi {
+    color: dark !important;
+    background: linear-gradient( rgba(15, 15, 15, 0.5), rgb(26, 26, 26, 1) )!important;
+  }
+
+.container-1giJp5 {
+    color: dark !important;
+    background: linear-gradient( rgba(15, 15, 15, 0.5), rgb(26, 26, 26, 1) )!important;
+  }
+
+.container-3baos1, .container-3baos1 .avatar-SmRMf2 {
+    color: dark !important;
+    background: linear-gradient( rgba(15, 15, 15, 0.5), rgb(26, 26, 26, 1) )!important;
+  }
+
+.name-3YKhmS {
+    color: dark !important;
+    background: linear-gradient( rgba(15, 15, 15, 0.5), rgb(26, 26, 26, 1) )!important;
+  }
+
+.clickable-2ap7je .header-2o-2hj {
+    color: dark !important;
+    background: linear-gradient( rgba(15, 15, 15, 0.5), rgb(26, 26, 26, 1) )!important;
+  }
+
+#channels {
+    color: dark !important;
+    background: linear-gradient( rgba(15, 15, 15, 0.5), rgb(26, 26, 26, 1) )!important;
+  }
+
+.grid-3HQYal, .tile-kezkfV {
+    color: dark !important;
+    background: linear-gradient( rgba(23, 23, 23, 0.5), rgb(26, 26, 26, 1) )!important;
+  }
+
+.videoGrid-1khsrF {
+    color: dark !important;
+    background: linear-gradient( rgba(23, 23, 23, 0.5), rgb(26, 26, 26, 1) )!important;
+  }
+
+#chat-messages {
+    color: dark !important;
+    background: linear-gradient( rgba(23, 23, 23, 0.5), rgb(26, 26, 26, 1) )!important;
+  }
+
+
+
+.title-3qD0b- {
+    color: dark !important;
+    background: linear-gradient( rgba(23, 23, 23, 0.5), rgb(26, 26, 26, 1) )!important;
+  }
+
+.base-gE7OpD {
+    color: dark !important;
+    background: linear-gradient( rgba(23, 23, 23, 0.5), rgb(26, 26, 26, 1) )!important;
+  }
+
+.form-2fGMdU {
+    color: dark !important;
+    background: linear-gradient( rgba(23, 23, 23, 0.5), rgb(26, 26, 26, 1) )!important;
+  }
+
+
+.scrollableContainer-2NUZem {
+    color: dark !important;
+    background: linear-gradient( rgba(23, 23, 23, 0.5), rgb(26, 26, 26, 1) )!important;
+  } 
+
+.quickswitcher-3JagVE, .quickswitcher-3JagVE * {
+  background-color: rgba(60, 60, 60, 0.6);
+  backdrop-filter: blur(5px);
+  }
+
+.scroller-2LSbBU {
+    color: dark !important;
+    background: linear-gradient( rgba(23, 23, 23, 0.5), rgb(26, 26, 26, 1) )!important;
+  }
+
+.content-3YMskv.da-content {
+    color: dark !important;
+    background: linear-gradient( rgba(23, 23, 23, 0.5), rgb(26, 26, 26, 1) )!important;
+  }
+
+#private-channels {
+    color: dark !important;
+    background: linear-gradient( rgba(23, 23, 23, 0.5), rgb(26, 26, 26, 1) )!important;
+  }
+
+.searchBar-6Kv8R2 {
+    color: dark !important;
+    background: linear-gradient( rgba(23, 23, 23, 0.5), rgb(26, 26, 26, 1) )!important;
+  }
+
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+    color: dark !important;
+    background: linear-gradient( rgba(23, 23, 23, 0.5), rgb(26, 26, 26, 1) )!important;
+  }
+
+.sidebarRegionScroller-3MXcoP {
+    color: dark !important;
+    background: linear-gradient( rgba(23, 23, 23, 0.5), rgb(26, 26, 26, 1) )!important;
+  }
+
+.contentRegionScroller-26nc1e {
+    color: dark !important;
+    background: linear-gradient( rgba(38, 38, 38, 0.5), rgb(38, 38, 38, 1) )!important;
+  }
+
+.contentRegionScroller-26nc1e {
+    color: dark !important;
+    background: linear-gradient( rgba(38, 38, 38, 0.5), rgb(38, 38, 38, 1) )!important;
+  }
+
+
+.standardSidebarView-3F1I7i, .standardSidebarView-3F1I7i * {
+    color: dark !important;
+    background: linear-gradient( rgba(38, 38, 38, 0.5), rgb(38, 38, 38, 1) )!important;
+  }
+
+.circleIcon-LvPL6c {
+    color: dark !important;
+    backdrop-filter: blur(5px);
+    background: background: linear-gradient( rgba(38, 38, 38, 0.5), rgb(38, 38, 38, 1) )!important; 
+  }
+
+.quickswitcher-3JagVE, .quickswitcher-3JagVE *  {
+  background-color: rgba(60, 60, 60, 0.6);
+  backdrop-filter: blur(5px);
+  }
+
+.container-1r6BKw.themed-ANHk51 {
+    color: dark !important;
+    background: linear-gradient( rgba(38, 38, 38, 0.5), rgb(38, 38, 38, 1) )!important;
+  }
+
+
+.scrollerBase-289Jih {
+    color: dark !important;
+    background: linear-gradient( rgba(38, 38, 38, 0.5), rgb(38, 38, 38, 1) )!important;
+  }
+
+.section-2gLsgF {
+    color: dark !important;
+    background: linear-gradient( rgba(38, 38, 38, 0.5), rgb(38, 38, 38, 1) )!important;
+  }
+
+.itemCard-v9viV7 {
+    color: dark !important;
+    background: linear-gradient( rgba(38, 38, 38, 0.5), rgb(38, 38, 38, 1) )!important;
+  }
+
+.expandedFolderBackground-2sPsd- {
+    color: dark !important;
+    background: linear-gradient( rgba(38, 38, 38, 0.5), rgb(38, 38, 38, 1) )!important;
+  }
+
+#bd-pub-button {
+    color: dark !important;
+    background: linear-gradient( rgba(38, 38, 38, 0.5), rgb(38, 38, 38, 1) )!important;
+  }
+
+
+.horizontalReverse-2eTKWD > .flex-1xMQg5:last-child, .horizontalReverse-2eTKWD > .flexChild-faoVW3:last-child {
+    color: dark !important;
+    background: linear-gradient( rgba(38, 38, 38, 0.5), rgb(38, 38, 38, 1) )!important;
+  }
+
+.bannedUserModal-3RJCOV .footer-322fxT {
+    color: dark !important;
+    background: linear-gradient( rgba(38, 38, 38, 0.5), rgb(38, 38, 38, 1) )!important;
+  }
+
+.segmentControl-1bEQH5 {
+    color: dark !important;
+    background: linear-gradient( rgba(38, 38, 38, 0.5), rgb(38, 38, 38, 1) )!important;
+  }
+
+.modalSize-cqUaws {
+    color: dark !important;
+    background: linear-gradient( rgba(38, 38, 38, 0.5), rgb(38, 38, 38, 1) )!important;
+  }
+
+.theme-dark .footer-2gL1pp {
+    color: dark !important;
+    background: linear-gradient( rgba(38, 38, 38, 0.5), rgb(38, 38, 38, 1) )!important;
+  }
+
+.card-2Mz_4z {
+    color: dark !important;
+    background: linear-gradient( rgba(38, 38, 38, 0.5), rgb(38, 38, 38, 1) )!important;
+  }
+
+.changeButton-278ZT6, .warningIcon-1Dw6GH {
+    color: dark !important;
+    background: linear-gradient( rgba(38, 38, 38, 0.5), rgb(38, 38, 38, 1) )!important;
+  }
+
+::placeholder, body, button, input, select, textarea {
+    color: dark !important;
+    background: linear-gradient( rgba(38, 38, 38, 0.5), rgb(38, 38, 38, 1) )!important;
+  }
+
+.theme-dark .footer-1fjuF6 {
+  background-color: rgba(60, 60, 60, 0.6);
+  backdrop-filter: blur(5px);
+  }
+
+
+.scrollerBase-289Jih {
+  background-color: rgba(60, 60, 60, 0.6);
+  backdrop-filter: blur(5px);
+  }
+
+
+.headerTop-3C2Zn0 {
+  background-color: rgba(60, 60, 60, 0.6);
+  backdrop-filter: blur(5px);
+  }
+
+
+
+
+
+
+
+
+
+
+
